@@ -19,5 +19,9 @@
   "devDependencies": {
     "esm": "^3.2.25",
     "rxjs": "^7.5.5"
+  },
+  "dependencies": {
+    "xhr2": "^0.2.1",
+    "xmlhttprequest": "^1.8.0"
   }
 }
