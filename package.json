@@ -1,0 +1,23 @@
+{
+  "name": "rxjsexamples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kshneo0/RxJSExamples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kshneo0/RxJSExamples/issues"
+  },
+  "homepage": "https://github.com/kshneo0/RxJSExamples#readme",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "rxjs": "^7.5.5"
+  }
+}

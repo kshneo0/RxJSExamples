@@ -1,0 +1,75 @@
+
+-----------------------------
+
+섹션 1: RXJS Observables
+
+-----------------------------
+
+1. 1- RXJS overview and setup
+
+npm install --save-dev rxjs 
+npm install --save-dev esm 
+
+node -r esm src/testingrx.js
+-----------------------------
+-----------------------------
+-----------------------------
+-----------------------------
+-----------------------------
+-----------------------------
+-----------------------------
+-----------------------------
+-----------------------------
+-----------------------------
+
+
+
+2. 2 - Making and using observables
+3. 3 - Observable methods
+4. 4 - Pipe method for applying operators
+5. 5 - How to use the pipe method
+섹션 2: RXJS Operators
+6. 1 - Ajax operator
+7. 2 - From operator
+8. 3 - FromEvent operator
+9. 4 - iif operator
+10. 5 - Count operator
+11. 6 - Max and Min operators
+12. 7 - Map operator
+13. 8 - GroupBy operator
+14. 9 - Reduce operator
+15. 10 - Filter operator
+16. 11 - First and Last operators
+17. 12 - Skip operator
+18. 13 - Throttle operator
+19. 14 - Concat operator
+20. 15 - Merge operator
+21. 16 - ForkJoin operator
+22. 17 - Tap operator
+23. 18 - Delay operator
+24. 19 - ToArray operator
+섹션 3: RXJS Subjects
+25. 1 - Subjects and their uses
+26. 2 - Difference between observables and subjects
+27. 3 - Behaviour subjects
+섹션 4: Project 1 - Building A Posts Lists
+28. Project preview
+29. 1 - Setting up the project
+30. 2 - Creating the get posts button and listening for clicks on that button
+31. 3 - Implementing the getPosts function
+32. 4 - Implementing a render function that displays the posts
+섹션 5: Project 2 - Building A Todo List
+33. Project preview
+34. 1 - Setting up the project
+35. 2 - Creating and implementing the input and function for adding todos
+36. 3 - Removing todos
+섹션 6: Project 3 - Creating A Mouse Tracker
+37. Project preview
+38. 1 - Setting up the project
+39. 2 - Listening for mouse clicks and movements
+40. 3 - Returning the coordinates of the click and displaying them
+섹션 7: Project 4 - Creating A Text Tracker
+41. Project preview
+42. 1 - Setting up the project
+43. 2 - Listening for keyup events on the text input
+44. 3 - Getting and displaying the length and the amount of words of the input
