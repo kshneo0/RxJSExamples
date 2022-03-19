@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +19,11 @@
   "homepage": "https://github.com/kshneo0/RxJSExamples#readme",
   "devDependencies": {
     "esm": "^3.2.25",
-    "rxjs": "^7.5.5"
+    "rxjs": "^7.5.5",
+    "html-webpack-plugin": "^5.4.0",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
   },
   "dependencies": {
     "xhr2": "^0.2.1",

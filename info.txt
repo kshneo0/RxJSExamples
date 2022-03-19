@@ -36,6 +36,9 @@ node -r esm src/testingrx.js
 6. 1 - Ajax operator
 
 -----------------------------
+
+7. 2 - From operator
+
 -----------------------------
 -----------------------------
 -----------------------------
@@ -48,7 +51,7 @@ node -r esm src/testingrx.js
 -----------------------------
 -----------------------------
 
-7. 2 - From operator
+
 8. 3 - FromEvent operator
 9. 4 - iif operator
 10. 5 - Count operator
