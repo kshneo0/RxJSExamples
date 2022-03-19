@@ -1,4 +1,13 @@
-import { of } from "rxjs";
-import { map } from 'rxjs/operators';
+import { Observable } from "rxjs";
 
-map((x) => x * x)(of(1, 2, 3)).subscribe((v) => console.log(`Output is: ${v}`));
+/*
+var observer = new Observable(function subscribe(subscriber) {
+  subscriber.next("My Observable.");
+});
+*/
+
+var observer = Observable.create(function subscribe(subscriber) {
+  subscriber.next("My Observable.");
+});
+
+observer.subscribe((x) => console.log(x));
