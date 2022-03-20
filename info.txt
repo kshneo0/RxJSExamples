@@ -80,6 +80,9 @@ node -r esm src/testingrx.js
 17. 12 - Skip operator
 
 -----------------------------
+
+18. 13 - Throttle operator
+
 -----------------------------
 -----------------------------
 -----------------------------
@@ -91,7 +94,7 @@ node -r esm src/testingrx.js
 -----------------------------
 -----------------------------
 
-18. 13 - Throttle operator
+
 19. 14 - Concat operator
 20. 15 - Merge operator
 21. 16 - ForkJoin operator
