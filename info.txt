@@ -179,23 +179,29 @@ npm install --save-dev esm
 
 40. 3 - Returning the coordinates of the click and displaying them
 
-
 -----------------------------
------------------------------
------------------------------
------------------------------
-
-
-
-
-
-
-
-
-
 
 섹션 7: Project 4 - Creating A Text Tracker
 41. Project preview
 42. 1 - Setting up the project
+
+-----------------------------
+
 43. 2 - Listening for keyup events on the text input
+
+-----------------------------
+
+-----------------------------
+
+
+
+
+
+
+
+
+
+
+
+
 44. 3 - Getting and displaying the length and the amount of words of the input
