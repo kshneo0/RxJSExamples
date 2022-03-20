@@ -124,15 +124,29 @@ node -r esm src/testingrx.js
 27. 3 - Behaviour subjects
 
 -----------------------------
+
+섹션 4: Project 1 - Building A Posts Lists
+28. Project preview
+
 -----------------------------
+
+29. 1 - Setting up the project
+
+npm init
+npm install rxjs -s
+npm install webpack -s
+npm install webpack-dev-serer@3.11.2 -s
+npm install webpack-cli --save-dev
+npm install --save-dev esm
+
 -----------------------------
 -----------------------------
 -----------------------------
 -----------------------------
 
-섹션 4: Project 1 - Building A Posts Lists
-28. Project preview
-29. 1 - Setting up the project
+
+
+
 30. 2 - Creating the get posts button and listening for clicks on that button
 31. 3 - Implementing the getPosts function
 32. 4 - Implementing a render function that displays the posts
