@@ -1,32 +1,22 @@
-import { first } from "rxjs";
 import { fromEvent } from "rxjs";
-import { ajax } from "rxjs/ajax";
 
-const div = document.querySelector("div");
-const button = document.querySelector("button");
+let id = 1;
 
-fromEvent(button, "click").subscribe(getPosts, (err) => console.error(err));
+function addItem(item) {
+  let li = document.createElement("li");
+  li.id = "li" + id;
+  let textNode = document.createTextNode(item);
+  let btn = document.createElement("button");
+  btn.innerHTML = "X";
+  btn.id = id;
 
-function getPosts() {
-  const userId = Math.round(Math.random() * 10);
-  ajax(
-    `https://jsonplaceholder.typicode.com/albums?userId=${userId}`
-  ).subscribe((res) => {
-    res && res.response && render(res);
-  });
+  li.appendChild(textNode);
+  li.appendChild(btn);
+  list.insertBefore(li, list.firstChild);
+  id++;
 }
 
-function render(res) {
-  div.innerHTML = "";
-  const posts = res.response;
-  for (const post of posts) {
-    const article = document.createElement("article");
-    const h1 = document.createElement("h1");
-    const p = document.createElement("p");
-    h1.textContent = post.title;
-    p.textContent = `id:${post.id} user-id:${post.userId}`;
-    article.appendChild(h1);
-    article.appendChild(p);
-    div.appendChild(article);
-  }
-}
+fromEvent(add, "click").subscribe((e) => {
+  addItem(input.value);
+  input.value = "";
+});
