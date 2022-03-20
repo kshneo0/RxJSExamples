@@ -20,3 +20,14 @@ fromEvent(add, "click").subscribe((e) => {
   addItem(input.value);
   input.value = "";
 });
+
+function removeItem(click) {
+  let li = document.getElementById("li" + click.target.id);
+  if (li) {
+    li.remove();
+  }
+}
+
+fromEvent(document, "click").subscribe((x) => {
+  removeItem(x);
+});
