@@ -96,6 +96,10 @@ node -r esm src/testingrx.js
 21. 16 - ForkJoin operator
 
 -----------------------------
+
+22. 17 - Tap operator
+
+
 -----------------------------
 -----------------------------
 -----------------------------
@@ -109,7 +113,7 @@ node -r esm src/testingrx.js
 -----------------------------
 -----------------------------
 
-22. 17 - Tap operator
+
 23. 18 - Delay operator
 24. 19 - ToArray operator
 섹션 3: RXJS Subjects
