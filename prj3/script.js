@@ -11,10 +11,12 @@ let mouseDownStream = fromEvent(document, "mousedown").pipe(
     return mouseMoveStream;
   }),
   map(function (event) {
-    return {}
+    return {x: event.clientX, y: event.clientY}
   })
 );
 
+let cLabel = document.querySelector("h1")
+
 mouseDownStream.subscribe(function (result) {
-  console.log(result);
+  cLabel.textContent = "x: " + result.x + " , y: " + result.y
 });
