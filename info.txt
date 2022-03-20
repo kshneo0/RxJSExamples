@@ -191,17 +191,6 @@ npm install --save-dev esm
 
 -----------------------------
 
------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
 44. 3 - Getting and displaying the length and the amount of words of the input
+
+-----------------------------

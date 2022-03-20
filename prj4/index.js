@@ -6,8 +6,20 @@ var resultElement = document.getElementById("result");
 
 var source = fromEvent(countElement, "keyup").pipe(
   map(function (event) {
-    console.log(event);
+    var input = event.target.value;
+    var characters = input.length;
+    var words = input.split(" ").filter(function (word) {
+      return word !== "";
+    }).length;
+    return (
+      "length of input is: " +
+      characters +
+      " and the amount of words is: " +
+      words
+    );
   })
 );
 
-source.subscribe(function (e) {});
+source.subscribe(function (text) {
+  resultElement.innerHTML = text;
+});
